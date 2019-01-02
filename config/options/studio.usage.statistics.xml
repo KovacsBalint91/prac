@@ -1,0 +1,84 @@
+<application>
+  <component name="StudioModuleUsageStatistics" last-send="0">
+    <group name="jobExplorer">
+      <module id="jobExplorer.action.open.toolWindow" totalCount="4" first-used="1540114267625" last-used="1540391084034">
+        <version number="3.0.0">
+          <dayUsage date="20181024" countInDay="3" />
+          <dayUsage date="20181021" countInDay="1" />
+        </version>
+      </module>
+      <module id="jobExplorer.action.refreshJob" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.openJobQueue.detail" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.queue.showSubHistory" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.show.jobDetail" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.openInBrowser" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.select.graphTab" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.select.detailTab" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.select.timeLineTab" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.select.sourceXmlTab" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.select.jsonTab" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.select.summaryTab" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.select.resultTab" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.select.analysisTab" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.replayJob" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.remote.debug" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.openLogview" totalCount="0" first-used="0" last-used="0" />
+      <module id="jobExplorer.action.saveJob" totalCount="0" first-used="0" last-used="0" />
+    </group>
+    <group name="udf">
+      <module id="udf.action.createJavaUdf" totalCount="0" first-used="0" last-used="0" />
+      <module id="udf.action.createPythonUdf" totalCount="0" first-used="0" last-used="0" />
+      <module id="udf.action.runJavaUdf" totalCount="0" first-used="0" last-used="0" />
+      <module id="udf.action.runPythonUdf" totalCount="0" first-used="0" last-used="0" />
+      <module id="udf.action.addResource" totalCount="0" first-used="0" last-used="0" />
+      <module id="udf.action.createFunction" totalCount="0" first-used="0" last-used="0" />
+      <module id="udf.action.deployJavaUdf" totalCount="0" first-used="0" last-used="0" />
+      <module id="udf.action.deployPythonUdf" totalCount="0" first-used="0" last-used="0" />
+    </group>
+    <group name="integration">
+      <module id="integration.console.action.openConsole" totalCount="0" first-used="0" last-used="0" />
+      <module id="integration.d2.action.importNode" totalCount="0" first-used="0" last-used="0" />
+      <module id="integration.d2.action.syncNode" totalCount="0" first-used="0" last-used="0" />
+      <module id="integration.robot.action.open" totalCount="0" first-used="0" last-used="0" />
+      <module id="integration.login.action.open" totalCount="0" first-used="0" last-used="0" />
+    </group>
+    <group name="projectExplorer">
+      <module id="projectExplorer.action.open.toolWindow" totalCount="5" first-used="1540114269741" last-used="1544041806476">
+        <version number="3.0.0">
+          <dayUsage date="20181205" countInDay="1" />
+          <dayUsage date="20181024" countInDay="3" />
+          <dayUsage date="20181021" countInDay="1" />
+        </version>
+      </module>
+      <module id="projectExplorer.action.addConnection" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.addConnectionFromDataworks" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.removeConnection" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.refreshMeta" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.showProjectDetail" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.copyProject" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.showTableDetail" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.showFunctionDetail" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.showResourceDetail" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.importTable" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.exportTable" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.select.tableDetailTab" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.select.partitionDetailTab" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.preview.table.data" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.open.tableEditor" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.showBuiltinFunction" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.showPrivilege" totalCount="0" first-used="0" last-used="0" />
+      <module id="projectExplorer.action.problemDiagnosis" totalCount="0" first-used="0" last-used="0" />
+    </group>
+    <group name="studioProject">
+      <module id="studioProject.action.useScriptEditor" totalCount="0" first-used="0" last-used="0" />
+      <module id="studioProject.action.create.odps.script" totalCount="0" first-used="0" last-used="0" />
+      <module id="studioProject.action.create.odps.interactiveQuery" totalCount="0" first-used="0" last-used="0" />
+      <module id="studioProject.action.resync.meta" totalCount="0" first-used="0" last-used="0" />
+      <module id="studioProject.action.local.compile" totalCount="0" first-used="0" last-used="0" />
+      <module id="studioProject.action.submit" totalCount="0" first-used="0" last-used="0" />
+      <module id="studioProject.action.format" totalCount="0" first-used="0" last-used="0" />
+      <module id="studioProject.action.findUsage" totalCount="0" first-used="0" last-used="0" />
+      <module id="studioProject.action.sqlHistory" totalCount="0" first-used="0" last-used="0" />
+    </group>
+  </component>
+</application>

@@ -1,0 +1,1742 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="D:/360feladatok/Java/final/EastWest" />
+        <option value="D:/360feladatok/financial/first_project/first_project" />
+        <option value="D:/360feladatok/financial" />
+        <option value="D:/360feladatok/Java/aa" />
+        <option value="D:/360feladatok/Java/codingbat" />
+        <option value="D:/360feladatok/Java/hackerrank" />
+        <option value="$USER_HOME$/Desktop/kovacs_balint/vizsga" />
+        <option value="D:/360feladatok/Java/vizsga" />
+        <option value="D:/360feladatok/Java/practice/gyakorlas" />
+        <option value="D:/360feladatok/Java/practice/final_exam_sample" />
+        <option value="D:/360feladatok/Java/projekt/Záróvizsga2/Záróvizsga2" />
+        <option value="D:/360feladatok/Java/projekt/Záróvizsga/Záróvizsga2" />
+        <option value="D:/360feladatok/Java/EastWest-projekt/EastWest" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/employees-app/employees-app" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/springdemo/springdemo" />
+        <option value="D:/360feladatok/Java/projekt/final_exam_sample/jdbcactivity" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/introjdbc" />
+        <option value="D:/360feladatok/Java/projekt/final_exam_sample/finalpractice" />
+        <option value="D:/360feladatok/Java/projekt/theend/theend/finalpractice" />
+        <option value="D:/360feladatok/Java/projekt/final_exam_sample" />
+        <option value="D:/360feladatok/Java/projekt/theend/theend/theend" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/lambdaprimitives" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/lambdacollectors" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/lambdaintro" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/lambdastreams" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/lambdaintermediate" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/lambdaoptional" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/niofiles" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/niopath" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/ioresource" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/ioreaderwriter" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/iostreams" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/fileclass" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/clone" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/xml" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/tree" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/dateduration" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/dateperiod" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/datenewtypes" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/dateoldtypes" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/bigdecimal" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/formatlocaleprintf" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/formatlocalemessage" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/formatlocalebundle" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/formatlocale" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/formatlocaleregexp" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/properties" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/collectionsclass" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/sorting" />
+        <option value="D:/360feladatok/Java/if-java-2018-06/searching" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="D:/360feladatok/Java/final/EastWest" />
+      </list>
+    </option>
+    <option name="lastPath" value="D:/360feladatok/Java/final/EastWest" />
+    <option name="pid" value="2380" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Desktop/kovacs_balint/vizsga">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1542110591218" />
+              <option name="buildTimestamp" value="1532446449693" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535980071518" />
+              <option name="buildTimestamp" value="1532446485856" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/2.heti-vizsga/vizsga_2hét/tasks">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535893725384" />
+              <option name="buildTimestamp" value="1532446471574" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/4.heti-vizsga/week4_practice_exam/exhibitions">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537279887080" />
+              <option name="buildTimestamp" value="1532446454571" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/EastWest-projekt/EastWest">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1540367795921" />
+              <option name="buildTimestamp" value="1532446464860" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/aa">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544446220943" />
+              <option name="buildTimestamp" value="1532446499313" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/codingbat">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544042073645" />
+              <option name="buildTimestamp" value="1532446486442" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/final/EastWest">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546423476251" />
+              <option name="buildTimestamp" value="1532446494358" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/gyakorlas">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536047178183" />
+              <option name="buildTimestamp" value="1532446494758" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/hackerrank">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1542127027292" />
+              <option name="buildTimestamp" value="1532446449693" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/hello">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1532955832845" />
+              <option name="buildTimestamp" value="1532446493516" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1532957039918" />
+              <option name="buildTimestamp" value="1532446493516" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/abstractclass">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535379108950" />
+              <option name="buildTimestamp" value="1532446469816" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/activity">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537094635911" />
+              <option name="buildTimestamp" value="1532446445549" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/algorithmscount">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534068788492" />
+              <option name="buildTimestamp" value="1532446465041" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/algorithmsdecision">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534090571926" />
+              <option name="buildTimestamp" value="1532446490145" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/algorithmsmax">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534071525616" />
+              <option name="buildTimestamp" value="1532446465041" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/algorithmssum">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534067035048" />
+              <option name="buildTimestamp" value="1532446465041" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/array">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535634638949" />
+              <option name="buildTimestamp" value="1532446479933" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/arraylist">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533391537869" />
+              <option name="buildTimestamp" value="1532446478847" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/arrayofarrays">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533145737903" />
+              <option name="buildTimestamp" value="1532446496435" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/arrays">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533208377433" />
+              <option name="buildTimestamp" value="1532446454585" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/attributes">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533399692211" />
+              <option name="buildTimestamp" value="1532446478847" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/bigdecimal">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537873466227" />
+              <option name="buildTimestamp" value="1532446443569" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/builder">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536676549254" />
+              <option name="buildTimestamp" value="1532446480032" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/classstructure">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535032169590" />
+              <option name="buildTimestamp" value="1532446465996" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/clone">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538384090134" />
+              <option name="buildTimestamp" value="1532446498792" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/collectionsautoboxing">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537429850131" />
+              <option name="buildTimestamp" value="1532446486683" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/collectionsclass">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537779792644" />
+              <option name="buildTimestamp" value="1532446461543" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/collectionscomp">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537438562265" />
+              <option name="buildTimestamp" value="1532446486683" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/collectionsequalshash">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537257740990" />
+              <option name="buildTimestamp" value="1532446454571" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/collectionsiterator">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537435665279" />
+              <option name="buildTimestamp" value="1532446486683" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/collectionslist">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537291060329" />
+              <option name="buildTimestamp" value="1532446454904" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/collectionsmap">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537364508425" />
+              <option name="buildTimestamp" value="1532446470343" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/collectionsqueue">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537358484517" />
+              <option name="buildTimestamp" value="1532446470343" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/collectionsset">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537342825252" />
+              <option name="buildTimestamp" value="1532446470343" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/constructoroverloading">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535098445584" />
+              <option name="buildTimestamp" value="1532446476769" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/controladvanced">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534007075753" />
+              <option name="buildTimestamp" value="1532446461384" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/controliteration">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534003843991" />
+              <option name="buildTimestamp" value="1532446461384" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/controlselection">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533815633633" />
+              <option name="buildTimestamp" value="1532446460995" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/dateduration">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537961879332" />
+              <option name="buildTimestamp" value="1532446455261" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/datenewtypes">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537951981982" />
+              <option name="buildTimestamp" value="1532446455261" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/dateoldtypes">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537877444758" />
+              <option name="buildTimestamp" value="1532446443569" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/dateperiod">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537954697234" />
+              <option name="buildTimestamp" value="1532446455261" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/debug">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533801514705" />
+              <option name="buildTimestamp" value="1532446478455" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/defaultconstructor">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534938798421" />
+              <option name="buildTimestamp" value="1532446458928" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/dpintro">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536573639420" />
+              <option name="buildTimestamp" value="1532446482969" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/employees-app/employees-app">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539953799187" />
+              <option name="buildTimestamp" value="1532446447376" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/enumtype">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533641548893" />
+              <option name="buildTimestamp" value="1532446477277" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/exceptionclass">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536071856047" />
+              <option name="buildTimestamp" value="1532446494758" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/exceptionmulticatch">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536140447393" />
+              <option name="buildTimestamp" value="1532446486244" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/exceptionresource">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536156609115" />
+              <option name="buildTimestamp" value="1532446486244" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/exceptions">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536063795234" />
+              <option name="buildTimestamp" value="1532446494758" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/fileclass">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538385340782" />
+              <option name="buildTimestamp" value="1532446498792" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/finalmodifier">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533218223576" />
+              <option name="buildTimestamp" value="1532446454585" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/formatlocale">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537805764780" />
+              <option name="buildTimestamp" value="1532446455349" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/formatlocalebundle">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537863632074" />
+              <option name="buildTimestamp" value="1532446443569" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/formatlocalemessage">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537864796445" />
+              <option name="buildTimestamp" value="1532446443569" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/formatlocaleprintf">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537866632296" />
+              <option name="buildTimestamp" value="1532446443569" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/formatlocaleregexp">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537791821362" />
+              <option name="buildTimestamp" value="1532446461543" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/genericclass">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536663949691" />
+              <option name="buildTimestamp" value="1532446464091" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/genericinterface">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536667182612" />
+              <option name="buildTimestamp" value="1532446464091" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/genericmethod">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537174072341" />
+              <option name="buildTimestamp" value="1532446468218" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/genericsusage">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536657304747" />
+              <option name="buildTimestamp" value="1532446464091" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/immutable">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534782427725" />
+              <option name="buildTimestamp" value="1532446495480" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/inheritanceattributes">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535036032590" />
+              <option name="buildTimestamp" value="1532446493581" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/inheritanceconstructor">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535036001104" />
+              <option name="buildTimestamp" value="1532446493581" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/inheritancemethods">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535030546772" />
+              <option name="buildTimestamp" value="1532446465996" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/initializer">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534942631854" />
+              <option name="buildTimestamp" value="1532446458928" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/interface">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535445848676" />
+              <option name="buildTimestamp" value="1532446452128" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/interfaceextends">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535462045962" />
+              <option name="buildTimestamp" value="1532446452128" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/interfacemethods">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535449058731" />
+              <option name="buildTimestamp" value="1532446452128" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/introconstructors">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533400630920" />
+              <option name="buildTimestamp" value="1532446478847" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/introcontrol">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533122112844" />
+              <option name="buildTimestamp" value="1532446458129" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/introexception">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534064507408" />
+              <option name="buildTimestamp" value="1532446465041" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/introinheritance">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534961482206" />
+              <option name="buildTimestamp" value="1532446441962" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/introjdbc">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539697565168" />
+              <option name="buildTimestamp" value="1532446491339" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/introjunit">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533660998032" />
+              <option name="buildTimestamp" value="1532446440422" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/intromethods">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533461814735" />
+              <option name="buildTimestamp" value="1532446451489" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/ioreaderwriter">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538399220184" />
+              <option name="buildTimestamp" value="1532446498792" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/ioresource">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538402223508" />
+              <option name="buildTimestamp" value="1532446498792" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/iostreams">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538396011194" />
+              <option name="buildTimestamp" value="1532446498792" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/isahasa">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535628030562" />
+              <option name="buildTimestamp" value="1532446479933" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/javaapi">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533035258362" />
+              <option name="buildTimestamp" value="1532446475827" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/javabeans">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534782783823" />
+              <option name="buildTimestamp" value="1532446495480" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/lambdacollectors">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538646201925" />
+              <option name="buildTimestamp" value="1532446475115" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/lambdaintermediate">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538639834741" />
+              <option name="buildTimestamp" value="1532446475115" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/lambdaintro">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538641015861" />
+              <option name="buildTimestamp" value="1532446475115" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/lambdaoptional">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538560374785" />
+              <option name="buildTimestamp" value="1532446471680" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/lambdaprimitives">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539272985793" />
+              <option name="buildTimestamp" value="1532446490415" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/lambdastreams">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538639988004" />
+              <option name="buildTimestamp" value="1532446475115" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/literals">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533556984261" />
+              <option name="buildTimestamp" value="1532446473014" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/localvariables">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533047308282" />
+              <option name="buildTimestamp" value="1532446475827" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/math">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533630333755" />
+              <option name="buildTimestamp" value="1532446477277" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/methodchain">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534858618710" />
+              <option name="buildTimestamp" value="1532446474832" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/methodparam">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534850540772" />
+              <option name="buildTimestamp" value="1532446474832" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/methodstructure">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534839325757" />
+              <option name="buildTimestamp" value="1532446474832" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/methodvarargs">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534854922473" />
+              <option name="buildTimestamp" value="1532446474832" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/methoverloading">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534876224503" />
+              <option name="buildTimestamp" value="1532446442530" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/mytest">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535356115844" />
+              <option name="buildTimestamp" value="1532446488419" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/nestedclasses">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536676413665" />
+              <option name="buildTimestamp" value="1532446480032" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/niofiles">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538467147864" />
+              <option name="buildTimestamp" value="1532446458843" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/niopath">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538412686106" />
+              <option name="buildTimestamp" value="1532446483097" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/objectclass">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535016600287" />
+              <option name="buildTimestamp" value="1532446465996" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/objects">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533391555425" />
+              <option name="buildTimestamp" value="1532446478847" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/operators">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533645130232" />
+              <option name="buildTimestamp" value="1532446477277" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/packages">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1532961698308" />
+              <option name="buildTimestamp" value="1532446499086" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/primitivetypes">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533582114745" />
+              <option name="buildTimestamp" value="1532446484413" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/properties">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537787839973" />
+              <option name="buildTimestamp" value="1532446461543" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/recursion">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534155567831" />
+              <option name="buildTimestamp" value="1532446484717" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/references">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533554589646" />
+              <option name="buildTimestamp" value="1532446473014" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/schoolrecords">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535373647324" />
+              <option name="buildTimestamp" value="1532446469816" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/searching">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537448830354" />
+              <option name="buildTimestamp" value="1532446486683" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/simplefactory">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536650692281" />
+              <option name="buildTimestamp" value="1532446464091" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/singleton">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536655785249" />
+              <option name="buildTimestamp" value="1532446464091" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/solid">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535538769419" />
+              <option name="buildTimestamp" value="1532446445454" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/sorting">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537777207588" />
+              <option name="buildTimestamp" value="1532446461543" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/springdemo/springdemo">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539766786781" />
+              <option name="buildTimestamp" value="1532446456423" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/statemachine">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534163414078" />
+              <option name="buildTimestamp" value="1532446484717" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/statements">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533048252982" />
+              <option name="buildTimestamp" value="1532446475827" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/staticattrmeth">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534924046353" />
+              <option name="buildTimestamp" value="1532446458928" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/stringbasic">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534172770253" />
+              <option name="buildTimestamp" value="1532446484717" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/stringbuilder">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534326438164" />
+              <option name="buildTimestamp" value="1532446474458" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/stringconcat">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534589473995" />
+              <option name="buildTimestamp" value="1532446487569" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/stringmethods">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534266859136" />
+              <option name="buildTimestamp" value="1532446448270" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/stringscanner">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1534589392900" />
+              <option name="buildTimestamp" value="1532446487569" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/stringtype">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533108066973" />
+              <option name="buildTimestamp" value="1532446458129" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/templatemethod">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536853229786" />
+              <option name="buildTimestamp" value="1532446450771" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/tree">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538036623514" />
+              <option name="buildTimestamp" value="1532446463061" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/typeconversion">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533711425445" />
+              <option name="buildTimestamp" value="1532446444220" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/virtualmethod">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535543483148" />
+              <option name="buildTimestamp" value="1532446445454" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/if-java-2018-06/xml">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1538379361625" />
+              <option name="buildTimestamp" value="1532446498792" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/practice/final_exam_sample">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1541693885960" />
+              <option name="buildTimestamp" value="1532446486646" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/practice/gyakorlas">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1541750236975" />
+              <option name="buildTimestamp" value="1532446483240" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/4.hetigyakorlas">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537106569546" />
+              <option name="buildTimestamp" value="1532446465983" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/4.hetigyakorlas/java4/exhibitions">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537126868742" />
+              <option name="buildTimestamp" value="1532446465983" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/Mózes-Zoli-Én-activity">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537095168020" />
+              <option name="buildTimestamp" value="1532446465983" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/Mózes-Zoli-Én-activity/Activity-Zoli-Mozes-Balint/activity">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537171540652" />
+              <option name="buildTimestamp" value="1532446468218" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/Záróvizsga/Záróvizsga2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1541691933380" />
+              <option name="buildTimestamp" value="1532446486646" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/Záróvizsga2/Záróvizsga2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1541693836722" />
+              <option name="buildTimestamp" value="1532446486646" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/final_exam_sample">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539279768957" />
+              <option name="buildTimestamp" value="1532446450314" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/final_exam_sample/finalpractice">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539595910983" />
+              <option name="buildTimestamp" value="1532446472405" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/final_exam_sample/jdbcactivity">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539697909665" />
+              <option name="buildTimestamp" value="1532446491339" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/java4/java4/exhibitions">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537106511980" />
+              <option name="buildTimestamp" value="1532446465983" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/teamBuffering-catalog/catalog">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535979984686" />
+              <option name="buildTimestamp" value="1532446485856" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/teamBuffering-catalog/test">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535893684481" />
+              <option name="buildTimestamp" value="1532446471574" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/teamBuffering-catalog/timeconversion">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535972850012" />
+              <option name="buildTimestamp" value="1532446451610" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/theend/theend/finalpractice">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539279835862" />
+              <option name="buildTimestamp" value="1532446450314" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/projekt/theend/theend/theend">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1539279712395" />
+              <option name="buildTimestamp" value="1532446450314" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/Java/vizsga">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1541755483845" />
+              <option name="buildTimestamp" value="1532446483240" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/financial">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1544448877971" />
+              <option name="buildTimestamp" value="1532446499313" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/360feladatok/financial/first_project/first_project">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-182.3684.101" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1546020971814" />
+              <option name="buildTimestamp" value="1532446495268" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="D:/360feladatok/Java/final" />
+  </component>
+</application>
