@@ -1,0 +1,9 @@
+.welcome {
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    box-align: left;
+    float: left;
+}
