@@ -28,7 +28,6 @@ public class FirstProjectApplication extends WebSecurityConfigurerAdapter {
 		http.csrf().disable()
 				.authorizeRequests()
 				.antMatchers("/", "/js/**", "/css/**", "/api/**").permitAll()
-				.anyRequest().authenticated()
 				.and().httpBasic().and()
 				.formLogin().loginPage("/login.html").defaultSuccessUrl("/index.html")
 				.and()

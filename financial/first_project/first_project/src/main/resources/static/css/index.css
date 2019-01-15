@@ -1,9 +1,71 @@
-.welcome {
-    width: 100%;
+.login {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#login{
+    margin-bottom: -100px !important;
+}
+
+#login-username {
+    text-align: center;
+    margin-top: 12px;
+    width: 253px;
+    margin-bottom: 20px;
+}
+
+#login-password {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    width: 253px;
+}
+
+.message {
+    background: #7F9B47;
+    color: #fff;
+    margin-left: 300px;
+    margin-top: -201px;
+    padding: 35px;
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    z-index: -1;
+}
+
+.message-error {
+    background: #E84E36 !important;
+    color: #fff;
+    margin-left: 300px;
+    margin-top: -201px;
+    padding: 35px;
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    z-index: -1;
+}
+
+.message:empty {
+    visibility: hidden;
+}
+
+.symbol {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.registration {
+    margin-top: 50px;
     text-align: center;
 }
 
-.card {
-    box-align: left;
-    float: left;
+#submit-button{
+    border: none;
+    text-decoration: none;
+    padding: 15px 0px;
+    transition-duration: 0.5s;
 }
+
+#submit-button:hover {
+    font-size: 20px;
+    }
