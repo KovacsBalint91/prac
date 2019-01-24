@@ -29,7 +29,9 @@ public class FirstProjectApplication extends WebSecurityConfigurerAdapter {
 				.authorizeRequests()
 				.antMatchers("/", "/js/**", "/css/**", "/api/**").permitAll()
 				.and().httpBasic().and()
-				.formLogin().loginPage("/login.html").defaultSuccessUrl("/index.html")
+				.formLogin().loginPage("/index.html")
+				.loginProcessingUrl("/user_login")
+				.defaultSuccessUrl("/page.html")
 				.and()
 				.logout();
 	}

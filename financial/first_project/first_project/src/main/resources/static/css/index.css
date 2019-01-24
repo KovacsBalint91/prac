@@ -69,3 +69,11 @@
 #submit-button:hover {
     font-size: 20px;
     }
+
+.register-label {
+    width: 30%;
+}
+
+.income-class{
+    padding: 6px;
+}

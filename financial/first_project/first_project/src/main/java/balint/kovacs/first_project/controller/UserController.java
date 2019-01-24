@@ -11,11 +11,19 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class UserController {
     @Autowired
     private UserService userService;
+
+    @RequestMapping(value = "/api/user", method = RequestMethod.GET)
+    public Optional<User> actualUser(Authentication authentication){
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        User user = userService.findUserByName(userDetails.getUsername());
+        return Optional.of(user);
+    }
 
     @RequestMapping(value = "/api/users", method = RequestMethod.POST)
     public Response createUser(@RequestBody User user) {
