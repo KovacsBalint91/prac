@@ -3,6 +3,7 @@ CREATE TABLE users(
     username varchar(50),
     name varchar(100),
     password varchar(200),
+    wallet bigint default 0,
     role varchar(20) default 'ROLE_USER',
     enabled tinyint default 1,
     constraint pk_users primary key (id)

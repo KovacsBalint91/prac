@@ -33,6 +33,7 @@ public class SpendDao {
     public void addSpend(long value, long userId, long categoryId){
         jdbcTemplate.update("INSERT INTO spend(user_id, spend_date, spend_value, category_id) " +
                 "VALUES(?, NOW(), ?, ?)", userId, value, categoryId);
+        jdbcTemplate.update("UPDATE users SET wallet = wallet - ? WHERE id = ?", value, userId);
     }
 
     public void modifySpend(long spendId, long value, long category_id){

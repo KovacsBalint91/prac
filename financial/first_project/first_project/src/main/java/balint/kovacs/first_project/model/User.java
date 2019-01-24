@@ -12,6 +12,7 @@ public class User {
     private List<Income> incomes = new ArrayList<>();
     private List<Spend> spendList = new ArrayList<>();
     private Role role;
+    private long wallet;
 
     public User(){
     }
@@ -95,5 +96,13 @@ public class User {
 
     public Role getRole() {
         return role;
+    }
+
+    public long getWallet() {
+        return wallet;
+    }
+
+    public void setWallet(long wallet) {
+        this.wallet = wallet;
     }
 }

@@ -21,6 +21,7 @@ public class IncomeDao {
     public void addIncome(long value, long userId){
         jdbcTemplate.update("INSERT INTO income(user_id, income_date, income_value)" +
                 "VALUES(?, NOW() ,?)", userId, value);
+        jdbcTemplate.update("UPDATE users SET wallet = wallet + ? WHERE id = ?", value, userId);
     }
 
     public void modifyIncome(long value, long incomeId){

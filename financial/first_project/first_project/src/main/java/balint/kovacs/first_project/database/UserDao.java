@@ -31,7 +31,10 @@ public class UserDao {
             String name = resultSet.getString("name");
             String pass = resultSet.getString("password");
             Role role = Role.valueOf(resultSet.getString("role"));
-            return new User(id, username, name, pass, role);
+            long wallet = resultSet.getLong("wallet");
+            User user = new User(id, username, name, pass, role);
+            user.setWallet(wallet);
+            return user;
         }
     }
 
@@ -55,7 +58,7 @@ public class UserDao {
 
     public User findUserByUsername(String username){
         return jdbcTemplate.queryForObject
-                ("SELECT id, username, name, password, role FROM users WHERE username = ?", new UserRowMapper(), username);
+                ("SELECT id, username, name, password, role, wallet FROM users WHERE username = ?", new UserRowMapper(), username);
     }
 
 }

@@ -8,6 +8,7 @@ window.onload = function (){
 
 let actualUser;
 
+//Bejelentkezett felhasználó
 function userLoggedIn() {
   fetch('/api/user')
     .then(function (request) {
@@ -25,10 +26,18 @@ function userLoggedIn() {
               userDataDiv.style.display = 'none';
             } else {
               actualUser = user;
+              fillUserData();
             }
     });
 }
 
+//Felhasználó adatai
+function fillUserData(){
+    let userData = document.querySelector(".user-data");
+    userData.innerHTML = "Hello " + actualUser.name + "!<br/>Your balance is: " + actualUser.wallet;
+}
+
+// Bevétel hozzáadása
 function handleIncome(){
     let incomeValue = document.querySelector("#input-value").value;
 
@@ -49,10 +58,12 @@ function handleIncome(){
             document.querySelector("#input-value").value = "";
             let message = document.querySelector("#income-message");
             message.innerHTML = jsonData.message;
+            userLoggedIn();
         })
         return false;
     }
 
+// Kiadás hozzáadása
 function handleExpense(){
     let expenseValue = document.querySelector("#expense-value").value;
 
@@ -73,6 +84,8 @@ function handleExpense(){
             document.querySelector("#expense-value").value = "";
             let message = document.querySelector("#expense-message");
             message.innerHTML = jsonData.message;
+            userLoggedIn();
         })
         return false;
     }
+
