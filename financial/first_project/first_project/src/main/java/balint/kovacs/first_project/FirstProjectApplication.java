@@ -28,12 +28,14 @@ public class FirstProjectApplication extends WebSecurityConfigurerAdapter {
 		http.csrf().disable()
 				.authorizeRequests()
 				.antMatchers("/", "/js/**", "/css/**", "/api/**").permitAll()
+				.antMatchers("/page.html").hasAnyRole("ADMIN", "USER")
 				.and().httpBasic().and()
 				.formLogin().loginPage("/index.html")
 				.loginProcessingUrl("/user_login")
 				.defaultSuccessUrl("/page.html")
 				.and()
-				.logout();
+				.logout()
+				.logoutSuccessUrl("/index.html");
 	}
 
 	@Bean

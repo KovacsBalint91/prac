@@ -4,6 +4,7 @@ window.onload = function (){
     incomeForm.onsubmit = handleIncome;
     let expenseForm = document.querySelector(".expense-form");
     expenseForm.onsubmit = handleExpense;
+    listCategories();
 };
 
 let actualUser;
@@ -89,3 +90,25 @@ function handleExpense(){
         return false;
     }
 
+//Kategóriák megjelenítése
+
+    function listCategories(){
+        fetch('/api/categories')
+            .then(function(request) {
+            return request.json();
+            })
+            .then(function(jsonData){
+                let categories = document.querySelector(".category-select");
+                let allCategories = document.createElement('option');
+                allCategories.text = "All";
+                categories.appendChild(allCategories);
+                for(let i = 0; i < jsonData.length; i++){
+                    let catName = jsonData[i].name;
+                    let catOption = document.createElement('option');
+                    catOption.value = jsonData[i].id;
+                    catOption.text = catName;
+
+                    categories.appendChild(catOption);
+                }
+            });
+    }

@@ -29,7 +29,7 @@ ENGINE = InnoDB;
 
 INSERT INTO categories(name)
 VALUES
-('Alapértelmezett'),
-('Szórakozás'),
-('Élelmiszer'),
-('Utazás');
+('Default'),
+('Fun'),
+('Food'),
+('Travel');

@@ -20,7 +20,7 @@ public class UserDao {
     }
 
     public void createUser(String username, String name, String password){
-        jdbcTemplate.update("INSERT INTO users(username, name, password) VALUES (?,?,?)", username, name, password);
+        jdbcTemplate.update("INSERT INTO users(username, name, password, wallet) VALUES (?,?,?,0)", username, name, password);
     }
 
     private static class UserRowMapper implements RowMapper<User> {
@@ -39,7 +39,7 @@ public class UserDao {
     }
 
     public List<User> listUsers(){
-        return jdbcTemplate.query("SELECT id, username, name, password, role FROM users", new UserRowMapper());
+        return jdbcTemplate.query("SELECT id, username, name, password, role, wallet FROM users", new UserRowMapper());
     }
 
     public void updateUser(long id, String name, String password){
