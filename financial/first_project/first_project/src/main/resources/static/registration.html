@@ -14,9 +14,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
 
@@ -37,21 +34,27 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         <hr style="width:200px" class="w3-opacity">
         <p>Hello! This is a personal finance site. I made it just for fun.</p>
 
-        <div class="form-group">
+        <div class="login">
             <h3>REGISTRATION</h3>
             <form class="register-form">
                 <input type="hidden" id="id-hidden-input"/>
-                <label class="register-label" for="name-input">Full name</label>
+                <label class="register-label" for="name-input">Full name</label><br>
                 <input type="text" autocomplete="off" id="name-input" class="form-control register-input-form" required/><br/>
-                <label class="register-label" for="nick-name-input">Nickname</label>
+
+                <label class="register-label" for="nick-name-input">Nickname</label><br>
                 <input type="text" autocomplete="off"  id="nick-name-input" class="form-control register-input-form" required/><br/>
-                <label class="register-label" for="password-input">Password</label>
+
+                <label class="register-label" for="password-input">Password</label><br>
                 <input id="password-input" class="form-control register-input-form" type="password" required/><br/>
-                <label class="register-label" for="password-input-confirm">Password</label>
+
+                <label class="register-label" for="password-input-confirm">Password</label><br>
                 <input id="password-input-confirm" class="form-control register-input-form" type="password" required/><br/>
-                <button type="submit" id="register-button" class="w3-button w3-round-small"><i class="fas fa-user-plus"></i> Registration</button>
+
+                <button type="submit" id="register-button" class="w3-button w3-round-small">
+                    <i class="fas fa-user-plus"></i> Registration
+                </button>
                 <a href="/index.html" class="w3-button w3-round-small">
-                    <i class="fas fa-undo-alt"> Back</i>
+                    <i class="fas fa-undo-alt"></i> Back
                 </a>
             </form>
         </div>

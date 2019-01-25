@@ -67,8 +67,13 @@ function handleIncome(){
 // Kiadás hozzáadása
 function handleExpense(){
     let expenseValue = document.querySelector("#expense-value").value;
-
-    let expense = {"value": expenseValue};
+    let expenseCategory = document.querySelector('.category-select').value;
+    let expense;
+    if(expenseCategory > 0){
+        expense = {"value": expenseValue , "category_id": expenseCategory }
+    } else {
+        expense = {"value": expenseValue};
+    }
 
     let url = '/api/spend/' + actualUser.username;
     fetch(url,{
@@ -105,6 +110,7 @@ function handleExpense(){
                 for(let i = 0; i < jsonData.length; i++){
                     let catName = jsonData[i].name;
                     let catOption = document.createElement('option');
+                    catOption.setAttribute("class", "select-items");
                     catOption.value = jsonData[i].id;
                     catOption.text = catName;
 

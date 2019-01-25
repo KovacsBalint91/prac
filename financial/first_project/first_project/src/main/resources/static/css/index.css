@@ -9,6 +9,7 @@
 
 #login-username {
     text-align: center;
+    padding: 12px 20px;
     margin-top: 12px;
     width: 253px;
     margin-bottom: 20px;
@@ -16,9 +17,21 @@
 
 #login-password {
     text-align: center;
+    padding: 12px 20px;
     margin-top: 12px;
     margin-bottom: 20px;
     width: 253px;
+}
+
+.register-form{
+    text-align: center;
+}
+
+.register-input-form{
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 253px;
+    text-align: center;
 }
 
 .message {
@@ -60,10 +73,12 @@
 }
 
 #submit-button{
+    width: 253px;
     border: none;
     text-decoration: none;
     padding: 15px 0px;
     transition-duration: 0.5s;
+    margin: 0 auto;
 }
 
 #submit-button:hover {
@@ -76,4 +91,19 @@
 
 .income-class{
     padding: 6px;
+}
+
+.category-select{
+    font-family: Montserrat;
+    background-color: teal;
+    border: none;
+    padding: 8px 16px;
+
+}
+
+.select-items{
+    background-color: teal;
+    border: none;
+    margin: 8px 16px;
+    padding: 8px 16px;
 }
