@@ -49,4 +49,8 @@ public class IncomeService {
     public List<Income> listIncomes(long userId){
         return incomeDao.listIncomes(userId);
     }
+
+    public List<Income> actualMonthIncomes(long userId){
+        return incomeDao.actualMonthIncomes(userId);
+    }
 }

@@ -20,6 +20,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
 
+
 </style>
 <body class="w3-black">
 
@@ -70,77 +71,29 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </header>
     <!-- Home Section -->
     <div class="w3-padding-64 w3-content w3-text-grey" id="home">
-        <h2 class="w3-text-light-grey">Hello</h2>
+        <h2 class="w3-text-light-grey">Incomes</h2>
         <hr style="width:200px" class="w3-opacity">
-        <div class = "user-data"></div><br><br>
-        <a href="incomes.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fas fa-comment-dollar w3-xxlarge"></i>
-            <p>Income statement</p>
-        </a>
+        <div class="user-data"></div>
+        <br><br>
+
+        <div class="incomes-data"></div>
     </div>
-
-    <!-- Income Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="income">
-        <h2 class="w3-text-light-grey">Income</h2>
-        <hr style="width:200px" class="w3-opacity">
-      <div class="w3-content w3-justify w3-text-grey w3-padding-64">
-          <form class="income-form">
-              <p><input id="input-value" class="w3-input w3-padding-16" type="number" placeholder="Income" required name="Name"></p>
-              <p>
-                  <input class="w3-input w3-button w3-light-grey w3-padding-16" type="button" onclick="handleIncome();" value='SEND INCOME'>
-              </p>
-          </form>
-          <p id="income-message"></p>
-      </div>
-    </div>
-    <!-- Expenses section-->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="expense">
-        <h2 class="w3-text-light-grey">Expenses</h2>
-        <hr style="width:200px" class="w3-opacity">
-      <div class="w3-content w3-justify w3-text-grey w3-padding-64">
-          <form class="expense-form">
-              <label for="category-select">Categories:</label>
-              <select id = "category-select" class = "category-select"></select>
-
-              <p><input id="expense-value" class="w3-input w3-padding-16" type="number" placeholder="Expense" required name="Name"></p>
-              <p>
-                  <input class="w3-input w3-button w3-light-grey w3-padding-16" type="button" onclick="handleExpense();" value="BURN MY MONEY!">
-              </p>
-          </form>
-          <p id="expense-message"></p>
-      </div>
-    </div>
-
-    <!-- Contact Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-        <h2 class="w3-text-light-grey">Contact Me</h2>
-        <hr style="width:200px" class="w3-opacity">
-
-        <div class="w3-section">
-            <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Budapest, Hungary</p>
-            <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +0036/70 866-7428</p>
-            <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
-                balint.kovacs91@gmail.com</p>
-        </div>
-
-        <!-- End Contact Section -->
-    </div>
-
-    <!-- Footer -->
-    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
-        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
-                                           class="w3-hover-text-green">w3.css</a></p>
-        <!-- End footer -->
-    </footer>
-
-    <!-- END PAGE CONTENT -->
 </div>
-<script src="js/page.js"></script>
+
+<!-- Footer -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                                       class="w3-hover-text-green">w3.css</a></p>
+    <!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+<script src="js/income.js"></script>
 </body>
 </html>

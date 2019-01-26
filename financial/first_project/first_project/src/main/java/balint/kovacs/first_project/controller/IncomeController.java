@@ -45,4 +45,11 @@ public class IncomeController {
         long id = userService.findUserByName(userDetails.getUsername()).getId();
         return incomeService.listIncomes(id);
     }
+
+    @RequestMapping(value = "/api/filteredincomes/{username}", method = RequestMethod.GET)
+    public List<Income> actualMonthIncomes(Authentication authentication){
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        long userId = userService.findUserByName(userDetails.getUsername()).getId();
+        return incomeService.actualMonthIncomes(userId);
+    }
 }
