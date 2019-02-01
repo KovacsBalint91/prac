@@ -48,4 +48,8 @@ public class SpendService {
         spendDao.deleteSpend(spendId);
         return new Response(true, bundle.getString("label.deleteSpend"));
     }
+
+    public List<Spend> actualMonthUserSpends(long userId){
+        return spendDao.actualMonthUserSpends(userId);
+    }
 }

@@ -29,7 +29,7 @@ public class IncomeDao {
     }
 
     public List<Income> listIncomes(long userId){
-        return jdbcTemplate.query("SELECT income_date, income_value FROM income WHERE user_id = ? " +
+        return jdbcTemplate.query("SELECT income_date, income_value FROM income WHERE user_id = ? AND YEAR(income_date) = YEAR(NOW()) " +
                         "ORDER BY income_date DESC",
                 new IncomeRowMapper(), userId);
     }

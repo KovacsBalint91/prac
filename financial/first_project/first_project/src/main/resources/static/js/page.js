@@ -35,7 +35,8 @@ function userLoggedIn() {
 //Felhasználó adatai
 function fillUserData(){
     let userData = document.querySelector(".user-data");
-    userData.innerHTML = "Hello " + actualUser.name + "!<br/>Your balance is: " + actualUser.wallet;
+    userData.innerHTML = "Hello " + actualUser.name + "!<br/>Your balance is: " +
+        (actualUser.wallet).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")
 }
 
 // Bevétel hozzáadása
@@ -59,6 +60,9 @@ function handleIncome(){
             document.querySelector("#input-value").value = "";
             let message = document.querySelector("#income-message");
             message.innerHTML = jsonData.message;
+            setTimeout(function() {
+                        message.innerHTML = "";
+                    }, 3000);
             userLoggedIn();
         })
         return false;
@@ -90,6 +94,9 @@ function handleExpense(){
             document.querySelector("#expense-value").value = "";
             let message = document.querySelector("#expense-message");
             message.innerHTML = jsonData.message;
+            setTimeout(function() {
+                        message.innerHTML = "";
+                    }, 3000);
             userLoggedIn();
         })
         return false;

@@ -37,15 +37,25 @@ public class SpendDao {
     }
 
     public void modifySpend(long spendId, long value, long category_id){
-        jdbcTemplate.update("UPDATE spend SET spend_value = ?, category_id = ? WHERE id = ?", value, category_id, spendId);
+        jdbcTemplate.update("UPDATE spend SET spend_value = ?, category_id = ? WHERE id = ?"
+                , value, category_id, spendId);
     }
 
     public List<Spend> listUserSpend(long userId){
-        return jdbcTemplate.query("SELECT spend_date, spend_value, category_id FROM spend WHERE user_id = ?", new SpendRowMapper(), userId);
+        return jdbcTemplate.query("SELECT spend_date, spend_value, category_id FROM spend WHERE user_id = ? " +
+                "AND YEAR(spend_date) = YEAR(NOW()) " +
+                "ORDER BY spend_date DESC", new SpendRowMapper(), userId);
     }
 
     public void deleteSpend(long spendId){
         jdbcTemplate.update("DELETE FROM spend WHERE id = ?", spendId);
+    }
+
+    public List<Spend> actualMonthUserSpends(long userId){
+        return jdbcTemplate.query("SELECT spend_date, spend_value, category_id FROM spend WHERE user_id = ? " +
+                "AND YEAR(spend_date) = YEAR(NOW()) " +
+                "AND MONTH(spend_date) = MONTH(NOW()) " +
+                "ORDER BY spend_date DESC", new SpendRowMapper(), userId);
     }
 
 }

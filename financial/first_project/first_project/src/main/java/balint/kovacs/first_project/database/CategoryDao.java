@@ -28,6 +28,11 @@ public class CategoryDao {
         }
     }
 
+    public Category findCategoryById(long categoryId){
+        return jdbcTemplate.queryForObject("SELECT id, name FROM categories WHERE id = ?",
+                new CategoryRowMapper(), categoryId);
+    }
+
     public void createCategory(String name){
         jdbcTemplate.update("INSERT INTO categories (name)" +
                 "VALUES(?)", name);

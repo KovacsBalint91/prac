@@ -50,4 +50,12 @@ public class SpendController {
         return new Response(true, bundle.getString("label.deleteSpend"));
     }
 
+    @RequestMapping(value = "/api/filteredspends/{username}", method = RequestMethod.GET)
+    public List<Spend> actualMonthUserSpends(Authentication authentication){
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        User user = userService.findUserByName(userDetails.getUsername());
+        return spendService.actualMonthUserSpends(user.getId());
+    }
+
+
 }
