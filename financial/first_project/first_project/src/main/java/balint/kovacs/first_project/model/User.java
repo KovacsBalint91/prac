@@ -17,16 +17,16 @@ public class User {
     public User(){
     }
 
+    public User(String username, String password, String confirmPassword){
+        this.username = username;
+        this.password = password;
+        this.confirmPassword = confirmPassword;
+    }
+
     public User(long id, String username, String name) {
         this.id = id;
         this.username = username;
         this.name = name;
-    }
-
-    public User(String username, String name, String password) {
-        this.username = username;
-        this.name = name;
-        this.password = password;
     }
 
     public User(String username, String name, String password, String confirmPassword) {

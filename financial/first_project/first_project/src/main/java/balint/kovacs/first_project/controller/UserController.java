@@ -1,7 +1,6 @@
 package balint.kovacs.first_project.controller;
 
 import balint.kovacs.first_project.model.Response;
-import balint.kovacs.first_project.model.Role;
 import balint.kovacs.first_project.model.User;
 import balint.kovacs.first_project.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.Scanner;
 
 @RestController
 public class UserController {
@@ -35,8 +35,10 @@ public class UserController {
                 return userService.listUsers();
     }
 
-    @RequestMapping(value = "/api/users/{username}", method = RequestMethod.DELETE)
-    public Response deleteUser(@PathVariable String username) {
+    @RequestMapping(value = "/api/users/delete", method = RequestMethod.DELETE)
+    public Response deleteUser(Authentication authentication) {
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        String username = userDetails.getUsername();
         return userService.deleteUser(username);
     }
 
@@ -44,4 +46,5 @@ public class UserController {
     public void updateUser(@RequestBody User user, @PathVariable String username) {
         userService.updateUser(username, user.getName(), user.getPassword(), user.getConfirmPassword());
     }
+
 }

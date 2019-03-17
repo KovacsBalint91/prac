@@ -53,7 +53,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         <p>Junior Java Developer</p>
     </header>
     <!-- Settings Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="add-category">
+    <div class="w3-padding-64 w3-content w3-text-grey" id="settings-id">
         <h2 class="w3-text-light-grey">Settings</h2>
         <hr style="width:200px" class="w3-opacity">
         <form class="new-category-form">
@@ -64,7 +64,36 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                 <i class="fas fa-plus">Add</i>
             </button>
         </form>
+        <br><br>
         <p id="message-p"></p>
+        <br><br>
+
+        <div class="container">
+            <h3>Profile modification <i class="fas fa-tools"></i></h3>
+            <div id="result"></div>
+            <div class = "user-data"></div><br><br>
+            <div>
+                <form id="user-form">
+                    <label for="user-nickname">Nickname</label><br>
+                    <input type="text" id="user-nickname" placeholder="Felhasználónév" readonly><br>
+                    <label for="user-name">Name</label><br>
+                    <input type="text" id="user-name" placeholder="Name"><br>
+                    <label for="user-password">Password</label><br>
+                    <input type="password" id="user-password" placeholder="Password"><br>
+                    <label for="user-password-second">Password again</label><br>
+                    <input type="password" id="user-password-second" placeholder="Password"><br>
+                    <button id="submit-button" class="register-button"><i class="fas fa-pencil-alt"></i> Modify</button>
+                </form>
+            </div>
+        </div>
+        <br><br>
+
+        <form class="delete-user-form">
+            <label class="delete-user-class" for="delete-user-button">Delete me</label></br>
+            <button type="button" onclick="deleteUser()" id="delete-user-button" class="w3-button w3-round-small w3-input w3-light-grey w3-padding-16">
+                <i class="far fa-trash-alt w3-button"> Delete my profile</i>
+            </button>
+        </form>
     </div>
 </div>
 
