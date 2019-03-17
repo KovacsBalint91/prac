@@ -56,11 +56,18 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <div class="w3-padding-64 w3-content w3-text-grey" id="settings-id">
         <h2 class="w3-text-light-grey">Settings</h2>
         <hr style="width:200px" class="w3-opacity">
+        <br><br>
+
+        <!--Add a new category-->
         <form class="new-category-form">
-            <label class="category-label" for="new-category">Add a new category</label></br>
+            <h3>
+                <label class="category-label" for="new-category">Add a new category</label>
+                <i class="fas fa-plus"></i>
+            </h3>
+            <hr style="width:200px" class="w3-opacity">
             <input type="text" autocomplete="off" id="new-category" class="form-control" required></br>
             <p>If you add a category, it will appear for all users.</p>
-            <button type="submit" id="register-button" class="w3-button w3-round-small">
+            <button type="submit" id="register-button" class="w3-button w3-round-small w3-padding-16">
                 <i class="fas fa-plus">Add</i>
             </button>
         </form>
@@ -68,8 +75,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         <p id="message-p"></p>
         <br><br>
 
+        <!--Profile modification-->
         <div class="container">
             <h3>Profile modification <i class="fas fa-tools"></i></h3>
+            <hr style="width:200px" class="w3-opacity">
             <div id="result"></div>
             <div class = "user-data"></div><br><br>
             <div>
@@ -82,15 +91,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                     <input type="password" id="user-password" placeholder="Password"><br>
                     <label for="user-password-second">Password again</label><br>
                     <input type="password" id="user-password-second" placeholder="Password"><br>
-                    <button id="submit-button" class="register-button"><i class="fas fa-pencil-alt"></i> Modify</button>
+                    <button id="modify-button" class="w3-button w3-round-small w3-padding-16"><i class="fas fa-pencil-alt"></i> Modify</button>
                 </form>
             </div>
         </div>
         <br><br>
 
+        <!--Delete profile-->
         <form class="delete-user-form">
-            <label class="delete-user-class" for="delete-user-button">Delete me</label></br>
-            <button type="button" onclick="deleteUser()" id="delete-user-button" class="w3-button w3-round-small w3-input w3-light-grey w3-padding-16">
+            <h3>
+                <label class="delete-user-class">Delete me</label>
+                <i class="fas fa-toilet"></i>
+            </h3>
+            <hr style="width:200px" class="w3-opacity">
+            <button type="button" onclick="deleteUser()" id="delete-user-button" class="w3-button w3-round-small w3-padding-16">
                 <i class="far fa-trash-alt w3-button"> Delete my profile</i>
             </button>
         </form>

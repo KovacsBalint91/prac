@@ -20,7 +20,9 @@ public class UserDao {
     }
 
     public void createUser(String username, String name, String password){
-        jdbcTemplate.update("INSERT INTO users(username, name, password, wallet) VALUES (?,?,?,0)", username, name, password);
+        jdbcTemplate.update(
+                "INSERT INTO users(username, name, password, wallet) VALUES (?,?,?,0)"
+                , username, name, password);
     }
 
     private static class UserRowMapper implements RowMapper<User> {
@@ -32,14 +34,21 @@ public class UserDao {
             String pass = resultSet.getString("password");
             Role role = Role.valueOf(resultSet.getString("role"));
             long wallet = resultSet.getLong("wallet");
-            User user = new User(id, username, name, pass, role);
-            user.setWallet(wallet);
+            User user = new User.Builder()
+                    .id(id)
+                    .username(username)
+                    .name(name)
+                    .password(pass)
+                    .role(role)
+                    .wallet(wallet)
+                    .build();
             return user;
         }
     }
 
     public List<User> listUsers(){
-        return jdbcTemplate.query("SELECT id, username, name, password, role, wallet FROM users", new UserRowMapper());
+        return jdbcTemplate.query(
+                "SELECT id, username, name, password, role, wallet FROM users", new UserRowMapper());
     }
 
     public void updateUser(long id, String name, String password){
@@ -58,7 +67,8 @@ public class UserDao {
 
     public User findUserByUsername(String username){
         return jdbcTemplate.queryForObject
-                ("SELECT id, username, name, password, role, wallet FROM users WHERE username = ?", new UserRowMapper(), username);
+                ("SELECT id, username, name, password, role, wallet FROM users WHERE username = ?"
+                        , new UserRowMapper(), username);
     }
 
 }

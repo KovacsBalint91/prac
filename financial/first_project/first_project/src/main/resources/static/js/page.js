@@ -27,13 +27,13 @@ function userLoggedIn() {
               userDataDiv.style.display = 'none';
             } else {
               actualUser = user;
-              fillUserData();
+              fillUserData(user);
             }
     });
 }
 
 //Felhasználó adatai
-function fillUserData(){
+function fillUserData(actualUser){
     let userData = document.querySelector(".user-data");
     userData.innerHTML = "Hello " + actualUser.name + "!<br/>Your balance is: " +
         (actualUser.wallet).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")
