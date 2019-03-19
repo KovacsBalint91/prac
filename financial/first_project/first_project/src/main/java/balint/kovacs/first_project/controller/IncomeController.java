@@ -33,7 +33,6 @@ public class IncomeController {
     @RequestMapping(value = "/api/modifyincome/{username}/{id}", method = RequestMethod.POST)
     public Response modifyIncome( Authentication authentication, @RequestBody Income income, @PathVariable long id) {
         if (authentication != null) {
-            UserDetails userDetails = (UserDetails) authentication.getPrincipal();
             return incomeService.modifyIncome(income.getValue(), id);
         }
         return new Response(false, bundle.getString("label.wrongAuth"));

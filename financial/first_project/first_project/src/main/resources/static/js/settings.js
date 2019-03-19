@@ -62,8 +62,10 @@ function handleCategorySubmit() {
 //Felhasználó törlése
 function deleteUser(){
 
+    let url = "/api/users/delete/" + actualUser.username;
+
     if (confirm('Are you sure?')) {
-        fetch('api/users/delete', {
+        fetch(url, {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json; charset=utf-8'

@@ -33,10 +33,8 @@ public class UserController {
                 return userService.listUsers();
     }
 
-    @RequestMapping(value = "/api/users/delete", method = RequestMethod.DELETE)
-    public Response deleteUser(Authentication authentication) {
-        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
-        String username = userDetails.getUsername();
+    @RequestMapping(value = "/api/users/delete/{username}", method = RequestMethod.DELETE)
+    public Response deleteUser(@PathVariable String username) {
         return userService.deleteUser(username);
     }
 

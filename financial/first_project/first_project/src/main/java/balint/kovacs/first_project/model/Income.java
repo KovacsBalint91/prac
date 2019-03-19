@@ -6,6 +6,7 @@ public class Income {
 
     private long value;
     private LocalDate date;
+    private long id;
 
     public Income(){
     }
@@ -18,6 +19,12 @@ public class Income {
     public Income(long value) {
         this.value = value;
         this.date = LocalDate.now();
+    }
+
+    public Income(long value, LocalDate date, long id) {
+        this.value = value;
+        this.date = date;
+        this.id = id;
     }
 
     public long getValue() {
@@ -34,5 +41,9 @@ public class Income {
 
     public void setDate(LocalDate date) {
         this.date = date;
+    }
+
+    public long getId(){
+        return id;
     }
 }

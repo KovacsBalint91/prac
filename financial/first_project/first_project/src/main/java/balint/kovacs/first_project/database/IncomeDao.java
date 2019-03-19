@@ -29,13 +29,13 @@ public class IncomeDao {
     }
 
     public List<Income> listIncomes(long userId){
-        return jdbcTemplate.query("SELECT income_date, income_value FROM income WHERE user_id = ? AND YEAR(income_date) = YEAR(NOW()) " +
+        return jdbcTemplate.query("SELECT income_date, income_value, id FROM income WHERE user_id = ? AND YEAR(income_date) = YEAR(NOW()) " +
                         "ORDER BY income_date DESC",
                 new IncomeRowMapper(), userId);
     }
 
     public List<Income> actualMonthIncomes(long userId){
-        return jdbcTemplate.query("SELECT income_date, income_value FROM income WHERE user_id = ? " +
+        return jdbcTemplate.query("SELECT income_date, income_value, id FROM income WHERE user_id = ? " +
                 "AND YEAR(income_date) = YEAR(NOW()) " +
                         "AND MONTH(income_date) = MONTH(NOW()) " +
                         "ORDER BY income_date DESC",
@@ -47,7 +47,8 @@ public class IncomeDao {
         public Income mapRow(ResultSet resultSet, int i) throws SQLException {
             long value = resultSet.getLong("income_value");
             LocalDate time = resultSet.getDate("income_date").toLocalDate();
-            return new Income(value, time);
+            long id = resultSet.getLong("id");
+            return new Income(value, time,id);
         }
     }
 
