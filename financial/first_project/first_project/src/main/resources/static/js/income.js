@@ -110,5 +110,4 @@ function fillIncomes(data){
 
     document.querySelector("#history-amount").innerHTML =
      allAmount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-
 }

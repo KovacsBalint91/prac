@@ -5,10 +5,12 @@ import balint.kovacs.first_project.model.Spend;
 import balint.kovacs.first_project.model.User;
 import balint.kovacs.first_project.service.SpendService;
 import balint.kovacs.first_project.service.UserService;
+import balint.kovacs.first_project.view.ExcelSpendView;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 import java.util.ResourceBundle;
@@ -51,10 +53,20 @@ public class SpendController {
     }
 
     @RequestMapping(value = "/api/filteredspends/{username}", method = RequestMethod.GET)
-    public List<Spend> actualMonthUserSpends(Authentication authentication){
+    public List<Spend> actualMonthUserSpends(Authentication authentication) {
         UserDetails userDetails = (UserDetails) authentication.getPrincipal();
         User user = userService.findUserByName(userDetails.getUsername());
         return spendService.actualMonthUserSpends(user.getId());
+    }
+
+    @RequestMapping(value = "/spendsreport", method = RequestMethod.GET)
+    public ModelAndView getSpends(Authentication authentication) {
+
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        User user = userService.findUserByName(userDetails.getUsername());
+        List<Spend> spendList = spendService.listSpends(user.getId());
+
+        return new ModelAndView(new ExcelSpendView(), "spendList", spendList);
     }
 
 

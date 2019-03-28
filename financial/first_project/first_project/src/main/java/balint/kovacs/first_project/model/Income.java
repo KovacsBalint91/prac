@@ -46,4 +46,12 @@ public class Income {
     public long getId(){
         return id;
     }
+
+    @Override
+    public String toString() {
+        return "Income{" +
+                "value=" + value +
+                ", date=" + date +
+                '}';
+    }
 }
