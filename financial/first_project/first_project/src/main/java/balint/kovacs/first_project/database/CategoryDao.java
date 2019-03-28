@@ -23,8 +23,7 @@ public class CategoryDao {
         public Category mapRow(ResultSet resultSet, int i) throws SQLException {
             long id = resultSet.getLong("id");
             String name = resultSet.getString("name");
-            Category category = new Category(id, name);
-            return category;
+            return new Category(id, name);
         }
     }
 

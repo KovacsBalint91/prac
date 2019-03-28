@@ -1,11 +1,13 @@
 package balint.kovacs.first_project.service;
 
+import balint.kovacs.first_project.database.CategoryDao;
 import balint.kovacs.first_project.database.SpendDao;
 import balint.kovacs.first_project.database.UserDao;
 import balint.kovacs.first_project.model.Response;
 import balint.kovacs.first_project.model.Spend;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -14,11 +16,13 @@ public class SpendService {
 
     private SpendDao spendDao;
     private UserDao userDao;
+    private CategoryDao categoryDao;
     private ResourceBundle bundle;
 
-    public SpendService(SpendDao spendDao, UserDao userDao) {
+    public SpendService(SpendDao spendDao, UserDao userDao, CategoryDao categoryDao) {
         this.spendDao = spendDao;
         this.userDao = userDao;
+        this.categoryDao = categoryDao;
         this.bundle = ResourceBundle.getBundle("spendMessages");
     }
 
@@ -51,5 +55,15 @@ public class SpendService {
 
     public List<Spend> actualMonthUserSpends(long userId){
         return spendDao.actualMonthUserSpends(userId);
+    }
+
+    public List<Spend> excelListSpends(long userId){
+        List<Spend> spendList = spendDao.listUserSpend(userId);
+
+        for(Spend spend: spendList){
+            String category = (categoryDao.findCategoryById(spend.getCategory_id()).getName());
+            spend.setCategoryName(category);
+        }
+        return spendList;
     }
 }

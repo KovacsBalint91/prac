@@ -64,7 +64,7 @@ public class SpendController {
 
         UserDetails userDetails = (UserDetails) authentication.getPrincipal();
         User user = userService.findUserByName(userDetails.getUsername());
-        List<Spend> spendList = spendService.listSpends(user.getId());
+        List<Spend> spendList = spendService.excelListSpends(user.getId());
 
         return new ModelAndView(new ExcelSpendView(), "spendList", spendList);
     }

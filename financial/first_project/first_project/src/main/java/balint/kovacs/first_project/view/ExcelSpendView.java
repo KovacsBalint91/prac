@@ -1,7 +1,6 @@
 package balint.kovacs.first_project.view;
 
 import balint.kovacs.first_project.model.Spend;
-import balint.kovacs.first_project.service.CategoryService;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -14,10 +13,8 @@ import java.util.Map;
 
 public class ExcelSpendView extends AbstractXlsView {
 
-    private CategoryService categoryService;
-
     @Override
-    protected void buildExcelDocument(Map<String, Object> model, Workbook workbook,
+    public void buildExcelDocument(Map<String, Object> model, Workbook workbook,
                                       HttpServletRequest request,
                                       HttpServletResponse response) throws Exception {
 
@@ -36,8 +33,7 @@ public class ExcelSpendView extends AbstractXlsView {
 
             row.createCell(0).setCellValue(spend.getDate().toString());
             row.createCell(1).setCellValue(spend.getValue());
-            row.createCell(2).setCellValue(spend.getCategory_id());
+            row.createCell(2).setCellValue(spend.getCategoryName());
         }
-
     }
 }
