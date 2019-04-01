@@ -26,13 +26,16 @@ public class SpendService {
         this.bundle = ResourceBundle.getBundle("spendMessages");
     }
 
-    public Response addSpend(long value, long userId, long categoryId) {
+    public Response addSpend(long value, long userId, long categoryId, String desc) {
+        if(desc == null || desc.isEmpty()){
+            desc = "Default";
+        }
         long tempId = categoryId;
         if(categoryId == 0L){
             tempId = 1;
         }
         if (value > 0) {
-            spendDao.addSpend(value, userId, tempId);
+            spendDao.addSpend(value, userId, tempId, desc);
             return new Response(true, bundle.getString("label.addSpend"));
         } else {
             return new Response(false, bundle.getString("label.wrongAddSpend"));
@@ -59,6 +62,16 @@ public class SpendService {
 
     public List<Spend> excelListSpends(long userId){
         List<Spend> spendList = spendDao.listUserSpend(userId);
+
+        for(Spend spend: spendList){
+            String category = (categoryDao.findCategoryById(spend.getCategory_id()).getName());
+            spend.setCategoryName(category);
+        }
+        return spendList;
+    }
+
+    public List<Spend> excelListActualMonthSpends(long userId){
+        List<Spend> spendList = spendDao.actualMonthUserSpends(userId);
 
         for(Spend spend: spendList){
             String category = (categoryDao.findCategoryById(spend.getCategory_id()).getName());

@@ -29,7 +29,7 @@ public class SpendController {
     public Response addSpend(@RequestBody Spend spend, Authentication authentication) {
         UserDetails userDetails = (UserDetails) authentication.getPrincipal();
         User user = userService.findUserByName(userDetails.getUsername());
-        spendService.addSpend(spend.getValue(), user.getId(), spend.getCategory_id());
+        spendService.addSpend(spend.getValue(), user.getId(), spend.getCategory_id(), spend.getDescription());
         return new Response(true, bundle.getString("label.addSpend"));
     }
 
@@ -65,6 +65,16 @@ public class SpendController {
         UserDetails userDetails = (UserDetails) authentication.getPrincipal();
         User user = userService.findUserByName(userDetails.getUsername());
         List<Spend> spendList = spendService.excelListSpends(user.getId());
+
+        return new ModelAndView(new ExcelSpendView(), "spendList", spendList);
+    }
+
+    @RequestMapping(value = "/actualmonthspendsreport", method = RequestMethod.GET)
+    public ModelAndView getActualMonthSpends(Authentication authentication) {
+
+        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        User user = userService.findUserByName(userDetails.getUsername());
+        List<Spend> spendList = spendService.excelListActualMonthSpends(user.getId());
 
         return new ModelAndView(new ExcelSpendView(), "spendList", spendList);
     }

@@ -26,13 +26,16 @@ public class SpendDao {
             long value = resultSet.getLong("spend_value");
             LocalDate time = resultSet.getDate("spend_date").toLocalDate();
             long categoryId = resultSet.getLong("category_id");
-            return new Spend(value, time, categoryId);
+            String desc = resultSet.getString("description");
+            Spend spend = new Spend(value, time, categoryId);
+            spend.setDescription(desc);
+            return spend;
         }
     }
 
-    public void addSpend(long value, long userId, long categoryId){
-        jdbcTemplate.update("INSERT INTO spend(user_id, spend_date, spend_value, category_id) " +
-                "VALUES(?, NOW(), ?, ?)", userId, value, categoryId);
+    public void addSpend(long value, long userId, long categoryId, String desc){
+        jdbcTemplate.update("INSERT INTO spend(user_id, spend_date, spend_value, category_id, description) " +
+                "VALUES(?, NOW(), ?, ?, ?)", userId, value, categoryId, desc);
         jdbcTemplate.update("UPDATE users SET wallet = wallet - ? WHERE id = ?", value, userId);
     }
 
@@ -42,7 +45,7 @@ public class SpendDao {
     }
 
     public List<Spend> listUserSpend(long userId){
-        return jdbcTemplate.query("SELECT spend_date, spend_value, category_id FROM spend WHERE user_id = ? " +
+        return jdbcTemplate.query("SELECT spend_date, spend_value, category_id, description FROM spend WHERE user_id = ? " +
                 "AND YEAR(spend_date) = YEAR(NOW()) " +
                 "ORDER BY spend_date DESC", new SpendRowMapper(), userId);
     }
@@ -52,7 +55,7 @@ public class SpendDao {
     }
 
     public List<Spend> actualMonthUserSpends(long userId){
-        return jdbcTemplate.query("SELECT spend_date, spend_value, category_id FROM spend WHERE user_id = ? " +
+        return jdbcTemplate.query("SELECT spend_date, spend_value, category_id, description FROM spend WHERE user_id = ? " +
                 "AND YEAR(spend_date) = YEAR(NOW()) " +
                 "AND MONTH(spend_date) = MONTH(NOW()) " +
                 "ORDER BY spend_date DESC", new SpendRowMapper(), userId);

@@ -26,6 +26,7 @@ public class ExcelSpendView extends AbstractXlsView {
         header.createCell(0).setCellValue("Date");
         header.createCell(1).setCellValue("Value");
         header.createCell(2).setCellValue("Category");
+        header.createCell(3).setCellValue("Description");
 
         int rowNum = 1;
         for (Spend spend : spendList) {
@@ -34,6 +35,7 @@ public class ExcelSpendView extends AbstractXlsView {
             row.createCell(0).setCellValue(spend.getDate().toString());
             row.createCell(1).setCellValue(spend.getValue());
             row.createCell(2).setCellValue(spend.getCategoryName());
+            row.createCell(3).setCellValue(spend.getDescription());
         }
     }
 }

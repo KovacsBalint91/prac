@@ -72,9 +72,10 @@ function handleIncome(){
 function handleExpense(){
     let expenseValue = document.querySelector("#expense-value").value;
     let expenseCategory = document.querySelector('.category-select').value;
+    let expenseDescription = document.querySelector('#expense-description').value;
     let expense;
     if(expenseCategory > 0){
-        expense = {"value": expenseValue , "category_id": expenseCategory }
+        expense = {"value": expenseValue , "category_id": expenseCategory, "description": expenseDescription }
     } else {
         expense = {"value": expenseValue};
     }
@@ -92,6 +93,7 @@ function handleExpense(){
         })
         .then(function(jsonData){
             document.querySelector("#expense-value").value = "";
+            document.querySelector("#expense-description").value = "";
             let message = document.querySelector("#expense-message");
             message.innerHTML = jsonData.message;
             setTimeout(function() {

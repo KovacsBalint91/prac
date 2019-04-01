@@ -110,9 +110,17 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
               <label for="category-select">Categories:</label>
               <select id = "category-select" class = "category-select"></select>
 
-              <p><input id="expense-value" class="w3-input w3-padding-16" type="number" placeholder="Expense" required name="Name"></p>
               <p>
-                  <input class="w3-input w3-button w3-light-grey w3-padding-16" type="button" onclick="handleExpense();" value="BURN MY MONEY!">
+                  <input id="expense-value" class="w3-input w3-padding-16" type="number" placeholder="Expense"
+                         required name="Name">
+              </p>
+              <p>
+                  <input id="expense-description" class = "w3-input w3-padding-16" type="text" placeholder="Description"
+                  autocomplete="off">
+              </p>
+              <p>
+                  <input class="w3-input w3-button w3-light-grey w3-padding-16" type="button" onclick="handleExpense();"
+                         value="BURN MY MONEY!">
               </p>
           </form>
           <p id="expense-message"></p>

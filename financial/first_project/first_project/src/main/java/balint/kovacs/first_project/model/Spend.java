@@ -1,6 +1,5 @@
 package balint.kovacs.first_project.model;
 
-import balint.kovacs.first_project.database.CategoryDao;
 
 import java.time.LocalDate;
 
@@ -9,6 +8,7 @@ public class Spend {
     private LocalDate date;
     private long category_id;
     private String categoryName;
+    private String description;
 
     public Spend() {
     }
@@ -65,12 +65,22 @@ public class Spend {
         this.categoryName = categoryName;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     @Override
     public String toString() {
         return "Spend{" +
                 "value=" + value +
                 ", date=" + date +
                 ", category_id=" + category_id +
+                ", categoryName='" + categoryName + '\'' +
+                ", description='" + description + '\'' +
                 '}';
     }
 }
